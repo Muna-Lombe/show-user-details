@@ -1,12 +1,17 @@
-import { Navigation } from "./components/Navigation";
+
+
+//components
+import { Navigation, UserInfo } from "./components";
 import Container from "react-bootstrap/Container";
+
+
 
 function App() {
   return (
     <div className="App">
       <Navigation />
       <Container>
-        <h3>User info goes here!</h3>
+        <UserInfo />
       </Container>
     </div>
   );
